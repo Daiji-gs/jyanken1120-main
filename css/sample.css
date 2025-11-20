@@ -1,0 +1,105 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+    padding:0;
+    /* text-align:left; */
+    font-size: 32px;
+    
+}
+
+
+header{
+    background-color: #fff;
+    /* border-bottom: 1px solid #ccc; */
+    text-align: center;
+}
+
+header img{
+    width: 1200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+main{
+    /* border-bottom:1px solid #ccc; */
+}
+
+main img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover; 
+} 
+
+.selection {
+    display: flex;
+    justify-content: center;
+}
+
+.outcome {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.outcome li{
+    font-size: 60px;
+    font-weight: bold;
+    border: none;
+}
+
+.computer{
+    margin-top: 50px;
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+#computer1{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+#judgment{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+footer{
+    background-color: #fff;
+    /* border-bottom:1px solid #ccc; */
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+
+footer img{
+    width: 1200px;
+    height: 100px;
+    object-fit: cover;
+}
